@@ -1,0 +1,11 @@
+# Pastas de Build do Java
+backend/target/
+*.class
+*.jar
+*.war
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.iml
+*.log

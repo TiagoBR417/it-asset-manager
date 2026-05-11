@@ -36,3 +36,48 @@ Este sistema resolve o problema de rastreabilidade de hardware dentro de uma emp
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/SEU_USUARIO/it-asset-manager.git](https://github.com/SEU_USUARIO/it-asset-manager.git)
+# Como Executar o Projeto
+
+## 2. Inicie o Backend
+
+No terminal do VS Code, acesse a pasta do backend:
+
+```powershell
+cd backend
+```
+
+## 3. Execute o projeto utilizando o Maven para Windows:
+
+```powershell
+.\mvnw.cmd spring-boot:run
+```
+
+Aguarde a mensagem:
+
+```text
+Started ItmanagerApplication
+```
+
+O servidor estará rodando na porta `8080`.
+
+---
+
+## 4. Inicie o Frontend
+
+Navegue até a pasta `frontend` pelo seu explorador de arquivos (Windows Explorer).
+
+Dê um duplo clique no arquivo:
+
+```text
+index.html
+```
+
+para abri-lo diretamente no navegador (Chrome, Edge, etc.).
+
+> Não é necessário servidor local para o Frontend, o JavaScript (`fetch`) já está configurado para consumir a API do Java na porta `8080`.
+
+---
+
+## Desenvolvido por
+
+**Tiago Oliveira dos Santos** 🚀🚀
